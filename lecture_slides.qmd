@@ -1,0 +1,106 @@
+---
+title: "Lab 5. Small Multiples, Big Insights: Maps & TidyTuesday in R"
+author: "Jahred Liddie"
+date: 2026-06-18
+editor: visual
+format: 
+  revealjs:
+    pdf: true
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+## Outline for today
+
+-   **#tidytuesday: a weekly social data project**
+    -   #tidytuesday as helpful, fun practice
+    -   My experience with #tidytuesday
+-   Geofacet-ing in R
+-   Live walkthrough with unregulated drinking water contaminant monitoring data
+-   Q&A and summary
+
+## What is #tidytuesday?
+
+-   #tidytuesday is a weekly social data project organized by the [Data Science Learning Community](https://dslc.io/) since 2018
+
+-   Each Monday, a curated dataset is posted to their [Github repo](https://github.com/rfordatascience/tidytuesday)
+
+-   Participants explore the data and share visualizations on social media (formerly on Twitter, now Bluesky)
+
+<center>![](images/tt_logo.png){width="420"}</center>
+
+## Some other notes on TidyTuesday
+
+-   Participants also encouraged to share code. This is nice since there are some very experienced R users with public TidyTuesday portfolios!
+-   The focus is on **exploring** data, rather than establishing causal relationships.
+-   Participants can also submit datasets for future weeks
+
+## Past example datasets
+
+-   Bob Ross paintings
+
+-   Weekly US gas prices
+
+-   *Stranger Things* dialogue
+
+-   A dataset of all Pokemon and their stats (available from the `pokemon` package)
+
+<center>![](images/porygon.png){width="200"}</center>
+
+## My experience with TidyTuesday
+
+-   I participated first in 2022 as a way to improve my data visualization skills
+-   Also enjoyed the community
+-   My full portfolio is available [here](https://github.com/jahredwithanh/tidytuesday/tree/main)
+
+## My very first plot
+
+<small>Key packages: `cowplot`, `ggtext`</small>
+
+![](images/COVID_MWRA.png){fig-align="center" width="550"}
+
+## Other examples (pt 1)
+
+<small>Key packages: `showtext`, `ggrepel`</small>
+
+![](images/retail.png){fig-align="center"}
+
+## Other examples (pt 2)
+
+<small>Key packages: `showtext`, `ggrepel`</small>
+
+![](images/paygap.png){fig-align="center"}
+
+## Other examples (pt 3)
+
+<small>Key packages: `gganimate`, `ggtext` </small>
+
+![](images/drought.gif){fig-align="center"}
+
+## Other examples (pt 4)
+
+<small>Key packages: `sf`, `ggimage`, `ggmap` </small>
+
+![](images/frog_map.png){fig-align="center"}
+
+## WEB Du Bois data portraits (pt 1)
+
+![](images/dubois_graph2.png){fig-align="center"}
+
+## WEB Du Bois data portraits (pt 2)
+
+![](images/dubois_plate27.png){fig-align="center"}
+
+## Other examples (pt 5)
+
+<small>Key packages: `geosphere`, `ggmap` </small>
+
+![](images/trade_triangle.png){fig-align="center"}
+
+## Other examples (pt 6)
+
+![](images/artists.png){fig-align="center" width="5300"}
+
+## What is `geofacet`?
